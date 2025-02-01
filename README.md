@@ -1,6 +1,12 @@
-# facebook-login
-This is the html code for facebook login page.
+# Facebook Login Page Clone
 
-There are 2 files one contains all the html code and
-another file contains all the css customization.✨
+This is a simple clone of the Facebook login page created using **HTML** and **CSS**. It was my first web development project, and I focused on implementing a clean layout and responsive design.
+
+## Features
+- **HTML** for structure
+- **CSS** for styling and responsive design
+- Mobile and desktop-friendly layout
+- Simple user interface replicating the Facebook login page
+
+
 
