@@ -25,9 +25,6 @@ A clean, responsive clone of the Facebook login page built with **HTML** and **C
 ## 🚀 Live Demo
 - Coming soon
 
-## 🖼️ Screenshots
-![Screenshot](assets/screenshot.png)
-
 ## 🧪 Getting Started
 1. Clone the repository.
 2. Open `facebook-login/facebook.html` in your browser.
