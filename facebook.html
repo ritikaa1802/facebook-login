@@ -9,22 +9,58 @@
 </head>
 
 <body>
+
+    <!-- Dark mode toggle button -->
+    <button id="darkToggle" class="dark-btn">🌙 Dark Mode</button>
+
     <h1>facebook</h1>
+
     <div class="container">
         <div class="information">
+
             <div class="log">Log in to facebook</div>
             <br>
-            <input type="text" name="email" placeholder="Email address or phone number" autofocus>
+
+            <!-- Accessible Email Input -->
+            <label for="email" class="sr-only">Email or phone</label>
+            <input id="email" type="text" name="email" placeholder="Email address or phone number" autofocus>
+
             <br><br>
-            <input type="password" name="password" placeholder="Password">
+
+            <!-- Accessible Password Input -->
+            <label for="password" class="sr-only">Password</label>
+            <input id="password" type="password" name="password" placeholder="Password">
+
             <br><br>
-            <button type="submit">Log in</button>
+
+            <button type="submit" class="login-btn">Log in</button>
+
             <br><br>
-            <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">Forgotten account?</a>
+
+            <a href="#">Forgotten account?</a>
             <span>.</span>
-            <a href="https://www.facebook.com/r.php?locale=en_GB&display=page">Sign up for facebook</a>
+            <a href="#">Sign up for facebook</a>
+
         </div>
     </div>
+
+    <!-- Dark mode script -->
+    <script>
+        const toggleBtn = document.getElementById("darkToggle");
+
+        toggleBtn.addEventListener("click", () => {
+            document.body.classList.toggle("dark-mode");
+
+            if (document.body.classList.contains("dark-mode")) {
+                toggleBtn.textContent = "☀️ Light Mode";
+            } else {
+                toggleBtn.textContent = "🌙 Dark Mode";
+            }
+        });
+    </script>
+
 </body>
 
 </html>
+
+
